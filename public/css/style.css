@@ -47,6 +47,15 @@ li {
     text-transform: capitalize;
 }
 
+.font-title {
+    font-weight: bold;
+    font-size: 1.6vw;
+    color: White;
+}
+
+.wd-he {
+    width: 100px;
+}
 
 
 /* ------------------- Style for container -------------------- */
@@ -129,7 +138,7 @@ li {
     height: auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto auto 500px; /* -- mis 100% au   lieu de auto : esay -- */
+    grid-template-rows: auto auto auto; /* -- mis 100% au   lieu de auto : esay -- */
     grid-template-areas: "art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 "
     "art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 "
     "art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 ";
@@ -202,11 +211,9 @@ li {
     min-height: 700px;
 }
 
-/* -- title-plat -- */
+/* -- title-plat -- */ /* -- style commune : font-title -- */
 .container main .row .ens-art .container-art .div-title-art .title-art {
-    font-weight: bold;
-    font-size: 1.8vw;
-    color: White;
+
 }
 
 
@@ -273,7 +280,86 @@ li {
 /* ----------- article-2 ------------ */
 .container main .row .art-2 {
     grid-area: art-2;
+    color: rgb(228, 219, 219);
+    width: 100%;
+    height: auto;
+    position: relative;
 }
+
+.container main .row .art-2 .bg-spicialites {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.container main .row .art-2 .container-art {
+    background-color: black;
+    width: 100%;
+    min-height: 700px;
+    height: auto;
+    align-content: flex-start;
+}
+
+.container main .row .art-2 .container-art .div-title-art {
+    height: 200px;
+    text-transform: capitalize;
+    z-index: 1;
+    
+}
+
+.container main .row .art-2 .container-art .all-spécialites {
+    width: 1200px;
+    height: auto;
+    justify-content: space-between;
+    row-gap: 50px;
+    column-gap: 100px;
+    padding-left: 100px
+
+}
+
+.container main .row .art-2 .container-art .all-spécialites .spécialiter {
+    width: 450px;
+    min-height: 200px;
+    height: auto;
+    display: flex;
+    justify-content: none;
+    align-items: none;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    row-gap: 20px;
+    position: relative;
+}
+
+.container main .row .art-2 .container-art .all-spécialites .spécialiter .logo-spicialiter {
+    position: absolute;
+    top: -10%;
+    left: -90px;
+    width: 60px;
+    height: 60px;
+
+}
+
+.container main .row .art-2 .container-art .all-spécialites .spécialiter .div-title-spécialites {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+
+}
+
+.container main .row .art-2 .container-art .all-spécialites .spécialiter .info-spécialites {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
 
 
 
