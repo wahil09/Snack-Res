@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
+/* ----------- Style for all ------------ */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+/* ---------------- Style for ensemble ---------------- */
+.flex-r {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.flex-c {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container main .row .ens-art .container-art .div-title-art {
+    width: 100%;
+    min-width: 280px;
+    height: 150px;
+}
+
+.lien {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(228, 47, 122);
+    color: White;
+    width: 200px;
+    height: 50px;
+    text-transform: capitalize;
+}
+
+
+
+/* ------------------- Style for container -------------------- */
+.container {
+    background-image: linear-gradient(to bottom, #404040,#dfc6d2 );
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 90px auto 400px; /* -- mis 100% au   lieu de auto : esay -- */
+    grid-template-areas: "header header header header header header header header header header header header "
+    "main main main main main main main main main main main main "
+    "footer footer footer footer footer footer footer footer footer footer footer footer ";
+}
+
+
+
+
+
+/* ----------- Style for header ------------ */
+.container .main-header {
+    grid-area: header;
+    background-color: rgb(55 51 50);;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100%; 
+    grid-template-areas: "logo logo . . . menu menu menu menu menu menu menu ";
+    position: sticky;
+    top: 0px;
+}
+
+/* -- Logo -- */
+.container .main-header .div-logo {
+    grid-area: logo;
+}
+
+.container .main-header .div-logo img {
+    width: 80px;
+}
+
+/* -- menu -- */
+.container .main-header .main-nav {
+    grid-area: menu;
+}
+
+.container .main-header .main-nav ul {
+    grid-area: menu;
+    width: 100%;
+    height: 100%;
+}
+
+.container .main-header .main-nav ul li {
+}
+
+.container .main-header .main-nav ul li a {
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    display: block;
+}
+
+.container .main-header .main-nav ul li a:hover {
+    color: rgb(231, 152, 152);
+
+}
+
+
+
+
+
+/* ----------- Style for section ------------ */
+.container main {
+    grid-area: main;
+    height: auto;
+    width: 100%;
+}
+
+.container main .row {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto 500px; /* -- mis 100% au   lieu de auto : esay -- */
+    grid-template-areas: "art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 "
+    "art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 "
+    "art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 ";
+}
+
+/* ------ article-0 -------- */
+.container main .row .art-0 {
+    grid-area: art-0;
+    background-image: url("../images/art-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    min-height: 800px;
+    height: 100%;
+    color: white;
+    align-items: flex-end;
+    text-align: center;
+}
+
+/* -- container-article -- */
+.container main .row .art-0 .container-art {
+    width: 40%;
+    height: 550px;
+    align-content: flex-start;
+    opacity: 2;
+
+}
+
+/* -- title-artcile -- */
+.container main .row .art-0 .container-art .div-title-art .main-title {
+    font-size: 2.5rem;
+    width: 90%;
+}
+
+/* -- description-snack -- */
+.container main .row .art-0 .container-art .div-desc-snack {
+    width: 90%;
+    height: 300px;
+}
+
+.container main .row .art-0 .container-art .div-desc-snack .descr-snack {
+    font-size: 25px;
+    min-height: 200px;
+    height: auto;
+    font-weight: 100;
+    line-height: 1.7;
+
+}
+
+/* -- lien-commander-article-0 -- */
+.container main .row .art-0 .container-art .div-desc-snack .lien-commander {
+
+    padding-right: 3px;
+
+}
+
+
+/* ----------- article-1 ------------ */
+
+.container main .row .art-1 {
+    grid-area: art-1;
+    background-image: linear-gradient(to right, rgb(75, 71, 71), gray);
+    width: 100%;
+    height: auto;
+}
+
+.container main .row .art-1 .container-art {
+    width: 100%;
+    height: auto;
+    min-height: 700px;
+}
+
+/* -- title-plat -- */
+.container main .row .ens-art .container-art .div-title-art .title-art {
+    font-weight: bold;
+    font-size: 1.8vw;
+    color: White;
+}
+
+
+/* -- all-plat -- */
+.container main .row .ens-art .container-art .all-Plats {
+    width: 90%;
+    height: auto;
+    
+}
+
+/* -- chaque-plat -- */
+.container main .row .ens-art .container-art .all-Plats .plat {
+    width: 500px;
+    min-height: 500px;
+    align-items: flex-start;
+    row-gap: 0px;
+}
+
+/* -- image-plat -- */
+.container main .row .ens-art .container-art .all-Plats .plat .div-plat-img {
+    width: 100%;
+    height: 370px;
+    
+}
+
+.container main .row .ens-art .container-art .all-Plats .plat .div-plat-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* -- info-plat -- */
+.container main .row .ens-art .container-art .all-Plats .plat .info-plat {
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    min-height: 130px;
+}
+
+.container main .row .ens-art .container-art .all-Plats .plat .info-plat .descp-plat {
+    width: 95%;
+    line-height: 1.6
+}
+
+/* -- func-plat -- */
+.container main .row .ens-art .container-art .all-Plats .plat .func-plat {
+    width: 100%;
+    height: 70px;
+    line-height: 1.6;
+    justify-content: flex-start;
+}
+
+.container main .row .ens-art .container-art .all-Plats .plat .func-plat .lien-plat {
+
+}
+
+
+
+
+
+
+
+
+
+/* ----------- article-2 ------------ */
+.container main .row .art-2 {
+    grid-area: art-2;
+}
+
+
+
+
+
+
+/* ----------- Style for footer ------------ */
+.container footer {
+    grid-area: footer;
+    background-color: black;
+    color:aliceblue;
+}
