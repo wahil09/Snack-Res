@@ -9,6 +9,7 @@
 }
 a {
     text-decoration: none;
+    color: #fff;
 }
 li {
     list-style: none;
@@ -57,6 +58,9 @@ li {
     width: 100px;
 }
 
+a[href*='wahil']:hover, a[href^='fb']:hover {
+    color: rgb(211, 17, 17); 
+}
 
 /* ------------------- Style for container -------------------- */
 .container {
@@ -65,7 +69,7 @@ li {
     height: auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 90px auto 400px; /* -- mis 100% au   lieu de auto : esay -- */
+    grid-template-rows: 90px auto auto; /* -- mis 100% au   lieu de auto : esay -- */
     grid-template-areas: "header header header header header header header header header header header header "
     "main main main main main main main main main main main main "
     "footer footer footer footer footer footer footer footer footer footer footer footer ";
@@ -298,9 +302,10 @@ li {
 .container main .row .art-2 .container-art {
     background-color: black;
     width: 100%;
-    min-height: 700px;
+    min-height: 900px;
     height: auto;
     align-content: flex-start;
+    row-gap: 10px;
 }
 
 .container main .row .art-2 .container-art .div-title-art {
@@ -314,7 +319,7 @@ li {
     width: 1200px;
     height: auto;
     justify-content: space-between;
-    row-gap: 50px;
+    row-gap: 10px;
     column-gap: 100px;
     padding-left: 100px
 
@@ -331,6 +336,7 @@ li {
     align-content: flex-start;
     row-gap: 20px;
     position: relative;
+    word-wrap: break-word;
 }
 
 .container main .row .art-2 .container-art .all-spécialites .spécialiter .logo-spicialiter {
@@ -371,4 +377,51 @@ li {
     grid-area: footer;
     background-color: black;
     color:aliceblue;
+    min-height: 400px;
 }
+
+/* -- container footer -- */
+.container footer .container-footer {
+    width: 1200px;
+    height: 100%
+}
+
+/* -- div-title-footer -- */
+.container footer .container-footer .div-title-footer {
+    width: 100%;
+    height: 100
+}
+
+/* -- all-coordonnées -- */
+.container footer .container-footer .all-cordonnes {
+    width: 100%;
+    min-height: 200px;
+    height: auto;
+}
+
+.container footer .container-footer .all-cordonnes .cordonner {
+    width: 200px;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container footer .container-footer .all-cordonnes .cordonner .title-cordonner {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container footer .container-footer .all-cordonnes .cordonner .info-cordonner {
+    width: 100%;
+    text-align: center;
+}
+
+/* -- div-copyright -- */
+.container footer .container-footer .div-copyright {
+    width: 100%;
+
+}
+
