@@ -1,0 +1,333 @@
+
+
+/* ---------- Pour les Pc -------------- */
+@media screen and (max-width:1200px) {
+
+    /* -------------- Style Header ---------------- */
+    .container main .row .art-0 {
+        overflow: hidden;
+    }
+
+    .container main .row .art-0 .div-bg-art-0 {
+        width: 1200px;
+
+    }
+    
+
+
+    
+    /* -------------- Style Section ---------------- */
+
+    /* -- row-0 -- */
+    .container main .row .art-0 .container-art {
+        width: 500px;
+        transform: translateX(-0px);
+        -webkit-transform: translateX(-0px);
+        -moz-transform: translateX(-0px);
+        -ms-transform: translateX(-0px);
+        -o-transform: translateX(-0px);
+    }
+
+    .container main .row .art-0 .container-art .div-title-art .main-title {
+        font-size: 28px;
+    }
+
+    .container main .row .art-0 .container-art .div-desc-snack .descr-snack {
+        font-size: 22px;
+    }
+
+
+    .container main .row .art-0 .container-art .div-desc-snack .lien-commander {
+        width: 180px;
+        height: 48px;
+        font-size: 19px;
+    }
+
+
+
+    /* -- row-1 -- */
+
+
+    /* -- row-2 -- */
+
+
+
+
+
+    /* -------------- Style Footer ---------------- */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------- Pour les Tablèttes -------------- */
+@media screen and (min-width:901px) and (max-width:1024px) {
+     /* -------------- Style Header ---------------- */
+
+
+    
+
+
+
+
+    /* -------------- Style Section ---------------- */
+
+    /* -- row-0 -- */
+
+    
+    .container main .row .art-0 .container-art {
+        width: 500px;
+    }
+
+    .container main .row .art-0 .container-art .div-title-art .main-title {
+        font-size: 26px;
+    }
+
+    .container main .row .art-0 .container-art .div-desc-snack .descr-snack {
+        font-size: 21px;
+    }
+
+
+
+
+    /* -- row-1 -- */
+
+
+    /* -- row-2 -- */
+
+
+
+
+
+    /* -------------- Style Footer ---------------- */
+
+    
+}
+
+
+
+
+
+
+
+
+/* ---------- Pour les mini-tablette ------------ */
+@media screen and (min-width:600px) and (max-width:900px) {
+    /* -------------- Style Header ---------------- */
+
+
+
+
+
+
+    /* -------------- Style Section ---------------- */
+
+    /* -- row-0 -- */
+
+    .container main .row .art-0 .container-art {
+        width: 470px;
+    }
+
+    .container main .row .art-0 .container-art .div-title-art .main-title {
+        font-size: 22px;
+    }
+
+    .container main .row .art-0 .container-art .div-desc-snack .descr-snack {
+        font-size: 20px;
+    }
+
+    .container main .row .art-0 .container-art .div-desc-snack .lien-commander {
+        width: 160px;
+        height: 43px;
+        font-size: 17px;
+    }
+
+    /* -- row-1 -- */
+
+
+    /* -- row-2 -- */
+
+
+
+
+
+    /* -------------- Style Footer ---------------- */
+
+
+
+}
+
+
+
+
+
+/* -------------- Pour les Petits-tablettes et Grands-mobiles -------------- */
+@media screen {
+    @media screen and (min-width:480px) and (max-width:600px) {
+        /* -------------- Style Header ---------------- */
+
+    
+    
+    
+    
+        /* -------------- Style Section ---------------- */
+    
+        /* -- row-0 -- */
+
+
+        .container main .row .art-0 .container-art .div-title-art .main-title {
+        font-size: 22px;
+        }
+
+        .container main .row .art-0 .container-art .div-desc-snack .descr-snack {
+            font-size: 19px;
+        }
+
+        .container main .row .art-0 .container-art .div-desc-snack .lien-commander {
+            width: 160px;
+            height: 43px;
+            font-size: 17px;
+        }
+    
+        /* -- row-1 -- */
+    
+    
+        /* -- row-2 -- */
+    
+    
+    
+    
+    
+        /* -------------- Style Footer ---------------- */
+    
+    
+    
+    }
+}
+
+
+
+
+
+/* ---------- Pour les mobiles -------------- */
+@media screen and (max-width:480px) {
+    /* -------------- Style Header ---------------- */
+
+
+
+
+
+
+    /* -------------- Style Section ---------------- */
+
+    /* -- row-0 -- */
+
+
+    .container main .row .art-0 .container-art {
+        width: 470px;
+        height: 425px;
+    }
+    
+    .container main .row .ens-art .container-art .div-title-art {
+        min-height: 100px;
+        height: auto;
+    }
+
+    .container main .row .art-0 .container-art .div-title-art .main-title {
+        font-size: 20px;
+    }
+
+    .container main .row .art-0 .container-art .div-desc-snack {
+        min-height: 250px;
+        height:auto;
+    } 
+    
+    .container main .row .art-0 .container-art .div-desc-snack .descr-snack {
+        font-size: 18px;
+    }
+
+    .container main .row .art-0 .container-art .div-desc-snack .lien-commander {
+        width: 150px;
+        height: 38px;
+        font-size: 15px;
+    }
+
+
+    /* -- row-1 -- */
+
+
+    /* -- row-2 -- */
+
+
+
+
+
+    /* -------------- Style Footer ---------------- */
+    
+}
+
+
+
+
+
+/* ---------- Pour les mini-mobiles -------------- */
+@media screen and (max-width:320px) {
+
+    /* -------------- Style Header ---------------- */
+
+
+
+
+
+
+    /* -------------- Style Section ---------------- */
+
+    /* -- row-0 -- */
+    .container main .row .art-0 {
+        min-height: 700px;
+    }
+
+    .container main .row .art-0 .container-art {
+        height: 400px;
+        overflow:hidden;
+    }
+
+    .container main .row .art-0 .container-art .div-title-art .main-title {
+        font-size: 18px;
+    }
+
+    .container main .row .art-0 .container-art .div-desc-snack .descr-snack {
+        font-size: 16px;
+    }
+
+
+
+
+
+    /* -- row-1 -- */
+
+
+    /* -- row-2 -- */
+
+
+
+
+
+    /* -------------- Style Footer ---------------- */
+
+    
+}

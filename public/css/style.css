@@ -31,13 +31,6 @@ li {
     flex-direction: column;
 }
 
-
-.container main .row .ens-art .container-art .div-title-art {
-    width: 100%;
-    min-width: 280px;
-    height: 150px;
-}
-
 .lien {
     font-size: 20px;
     font-weight: bold;
@@ -89,6 +82,7 @@ a[href*='wahil']:hover, a[href^='fb']:hover {
     grid-template-areas: "logo logo . . . menu menu menu menu menu menu menu ";
     position: sticky;
     top: 0px;
+    z-index: 111;
 }
 
 /* -- Logo -- */
@@ -146,46 +140,72 @@ a[href*='wahil']:hover, a[href^='fb']:hover {
     grid-template-areas: "art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 "
     "art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 "
     "art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 ";
+    
 }
 
 /* ------ article-0 -------- */
 .container main .row .art-0 {
     grid-area: art-0;
-    background-image: url("../images/art-1.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
     width: 100%;
-    min-height: 800px;
-    height: 100%;
+    min-height: 900px;
     color: white;
-    align-items: flex-end;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+/* ---- image-background ---- */
+.container main .row .art-0 .div-bg-art-0 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.container main .row .art-0 .div-bg-art-0 img {
+    width: 100%;
+    height: 100%;
+
 }
 
 /* -- container-article -- */
 .container main .row .art-0 .container-art {
-    width: 40%;
+    width: 650px;
+    z-index: 1;
     height: 550px;
     align-content: flex-start;
     opacity: 2;
-
+    transform: translateX(-20px);
+    -webkit-transform: translateX(-20px);
+    -moz-transform: translateX(-20px);
+    -ms-transform: translateX(-20px);
+    -o-transform: translateX(-20px);
 }
 
-/* -- title-artcile -- */
+/* -- div-title-artcile -- */
+.container main .row .ens-art .container-art .div-title-art {
+    width: 100%;
+    min-width: 0px;
+    min-height: 150px;
+    height: auto;
+}
+
 .container main .row .art-0 .container-art .div-title-art .main-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     width: 90%;
 }
 
 /* -- description-snack -- */
 .container main .row .art-0 .container-art .div-desc-snack {
     width: 90%;
-    height: 300px;
-}
+    min-height: 300px;
+    height:auto;
+    word-wrap: break-word;
+} 
 
 .container main .row .art-0 .container-art .div-desc-snack .descr-snack {
     font-size: 25px;
-    min-height: 200px;
     height: auto;
     font-weight: 100;
     line-height: 1.7;
@@ -288,6 +308,8 @@ a[href*='wahil']:hover, a[href^='fb']:hover {
     width: 100%;
     height: auto;
     position: relative;
+
+    display: none;
 }
 
 .container main .row .art-2 .bg-spicialites {
