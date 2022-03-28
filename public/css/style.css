@@ -43,7 +43,7 @@ li {
 
 .font-title {
     font-weight: bold;
-    font-size: 1.6vw;
+    font-size: 28px;
     color: White;
 }
 
@@ -143,7 +143,7 @@ a[href*='wahil']:hover, a[href^='fb']:hover {
     
 }
 
-/* ------ article-0 -------- */
+/* ------------------------------------ article-0 ------------------------------------------- */
 .container main .row .art-0 {
     grid-area: art-0;
     width: 100%;
@@ -158,7 +158,7 @@ a[href*='wahil']:hover, a[href^='fb']:hover {
 /* ---- image-background ---- */
 .container main .row .art-0 .div-bg-art-0 {
     position: absolute;
-    width: 100%;
+    width: 1920px;
     height: 100%;
 
 }
@@ -220,7 +220,7 @@ a[href*='wahil']:hover, a[href^='fb']:hover {
 }
 
 
-/* ----------- article-1 ------------ */
+/* --------------------------------------- article-1 --------------------------------------------- */
 
 .container main .row .art-1 {
     grid-area: art-1;
@@ -250,8 +250,8 @@ a[href*='wahil']:hover, a[href^='fb']:hover {
 
 /* -- chaque-plat -- */
 .container main .row .ens-art .container-art .all-Plats .plat {
-    width: 500px;
-    min-height: 500px;
+    width: 31%;
+    min-width: 0px;
     align-items: flex-start;
     row-gap: 0px;
 }

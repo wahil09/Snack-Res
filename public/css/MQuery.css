@@ -1,5 +1,28 @@
 
 
+/* ------------ Exceptions ---------------- */
+@media screen and (min-width:1401px) and (max-width:1600px) {
+    /* --- for div image plats --- */
+    .container main .row .ens-art .container-art .all-Plats .plat .div-plat-img {
+        height: 320px;
+    }
+
+}
+
+@media screen and (max-width:1400px) {
+
+    .container main .row .ens-art .container-art .all-Plats {
+        width: 95%;
+    }
+    /* --- for div image plats --- */
+    .container main .row .ens-art .container-art .all-Plats .plat .div-plat-img {
+        height: 280px;
+    }
+
+}
+
+
+
 /* ---------- Pour les Pc -------------- */
 @media screen and (max-width:1200px) {
 
@@ -9,7 +32,7 @@
     }
 
     .container main .row .art-0 .div-bg-art-0 {
-        width: 1200px;
+        width: 1500px;
 
     }
     
@@ -47,6 +70,16 @@
 
     /* -- row-1 -- */
 
+    .container main .row .ens-art .container-art .all-Plats .plat {
+        min-width: 400px;
+        width: 45%;
+    }
+
+    .container main .row .ens-art .container-art .all-Plats .plat .div-plat-img {
+        height: 300px;
+    }
+
+
 
     /* -- row-2 -- */
 
@@ -75,7 +108,7 @@
 
 
 /* ---------- Pour les Tablèttes -------------- */
-@media screen and (min-width:901px) and (max-width:1024px) {
+@media screen and (min-width:880px) and (max-width:1024px) {
      /* -------------- Style Header ---------------- */
 
 
@@ -107,6 +140,14 @@
     /* -- row-1 -- */
 
 
+    .container main .row .ens-art .container-art .all-Plats .plat {
+        
+    }
+
+    .container main .row .ens-art .container-art .all-Plats .plat .div-plat-img {
+        
+    }
+
     /* -- row-2 -- */
 
 
@@ -126,7 +167,7 @@
 
 
 /* ---------- Pour les mini-tablette ------------ */
-@media screen and (min-width:600px) and (max-width:900px) {
+@media screen and (min-width:600px) and (max-width:879px) {
     /* -------------- Style Header ---------------- */
 
 
@@ -157,6 +198,15 @@
     }
 
     /* -- row-1 -- */
+
+    .container main .row .ens-art .container-art .all-Plats .plat {
+        min-width: 500px;
+        
+    }
+
+    .container main .row .ens-art .container-art .all-Plats .plat .div-plat-img {
+        height: 370px;
+    }
 
 
     /* -- row-2 -- */
@@ -261,13 +311,26 @@
     }
 
     .container main .row .art-0 .container-art .div-desc-snack .lien-commander {
-        width: 150px;
+        width: 130px;
         height: 38px;
-        font-size: 15px;
+        font-size: 13px;
     }
 
 
     /* -- row-1 -- */
+
+    .font-title {
+        font-size: 20px;
+    }
+
+    .container main .row .ens-art .container-art .all-Plats .plat {
+        min-width: 0px;
+        width: 100%;
+    }
+
+    .container main .row .ens-art .container-art .all-Plats .plat .div-plat-img {
+        height: 300px;
+    }
 
 
     /* -- row-2 -- */
@@ -320,7 +383,27 @@
 
     /* -- row-1 -- */
 
+    .container main .row .ens-art .container-art .all-Plats .plat {
+        min-width: 240px;
+        width: 100%;
+    }
 
+    .container main .row .ens-art .container-art .all-Plats .plat .div-plat-img {
+        height: 240px;
+    }
+
+    .container main .row .ens-art .container-art .all-Plats .plat .info-plat {
+
+        min-height: 110px;
+    }
+    
+    .container main .row .ens-art .container-art .all-Plats .plat .info-plat .descp-plat {
+        font-size: 14px;
+    }
+
+    .lien {
+        width: 100%;
+    }
     /* -- row-2 -- */
 
 
