@@ -20,6 +20,16 @@
     }
 
 }
+@media screen and (max-width:900px) {
+    .container .main-header .main-nav {
+        display: none;
+    }
+    /* ------------ Afficher HHumBurger -------------- */
+    .container .main-header .div-humburger {
+        display: flex;
+    }
+}
+
 
 
 

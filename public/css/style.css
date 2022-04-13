@@ -75,6 +75,7 @@ a[href*='wahil']:hover, a[href^='fb']:hover {
 /* ----------- Style for header ------------ */
 .container .main-header {
     grid-area: header;
+    position: relative;
     background-color: rgb(55 51 50);;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -120,6 +121,45 @@ a[href*='wahil']:hover, a[href^='fb']:hover {
 
 }
 
+/* ---- HumBurger Style ----- */ 
+.container .main-header .div-humburger {
+    position: absolute;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    width: 40px;
+    height: 40px;
+    right: 10px;
+    top: 20px;
+    cursor: pointer;
+    justify-content: center;
+    display: none;
+}
+
+.container .main-header .div-humburger .ens-bar {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    transform-origin: right;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.container .main-header .div-humburger .left-bar {
+
+}
+
+.container .main-header .div-humburger .middle-bar {
+}
+
+.container .main-header .div-humburger .right-bar {
+
+}
 
 
 
