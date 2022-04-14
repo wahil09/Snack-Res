@@ -124,11 +124,11 @@ a[href*='wahil']:hover, a[href^='fb']:hover {
 /* ---- HumBurger Style ----- */ 
 .container .main-header .div-humburger {
     position: absolute;
-    transition: 1s;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
     width: 40px;
     height: 40px;
     right: 10px;
@@ -143,11 +143,11 @@ a[href*='wahil']:hover, a[href^='fb']:hover {
     height: 4px;
     background-color: white;
     transform-origin: right;
-    transition: 1s;
-    -webkit-transition: 1s;
-    -moz-transition: 1s;
-    -ms-transition: 1s;
-    -o-transition: 1s;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
 }
 
 .container .main-header .div-humburger .left-bar {
@@ -161,6 +161,53 @@ a[href*='wahil']:hover, a[href^='fb']:hover {
 
 }
 
+/* .container .main-header .phone-hidden {
+    display: none;
+} */
+.container .main-header .div-phone-menu {
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 88px;
+    width: 100%;
+    background-color: rgb(82, 80, 77);
+    height: 0px;
+    overflow: hidden;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.container .main-header .div-phone-menu ul {
+    row-gap: 0px;
+    width: 100%;
+
+}
+
+.container .main-header .div-phone-menu ul .phone-nav-item {
+    width: 100%;
+    height: 50px;
+
+}
+
+.container .main-header .div-phone-menu ul .phone-nav-item a {
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.container .main-header .div-phone-menu ul .phone-nav-item a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+
 
 
 
@@ -169,6 +216,8 @@ a[href*='wahil']:hover, a[href^='fb']:hover {
     grid-area: main;
     height: auto;
     width: 100%;
+
+    
 }
 
 .container main .row {
@@ -180,7 +229,12 @@ a[href*='wahil']:hover, a[href^='fb']:hover {
     grid-template-areas: "art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 art-0 "
     "art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 art-1 "
     "art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 art-2 ";
-    
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    z-index: 1111;
 }
 
 /* ------------------------------------ article-0 ------------------------------------------- */
@@ -192,7 +246,6 @@ a[href*='wahil']:hover, a[href^='fb']:hover {
     text-align: center;
     position: relative;
     overflow: hidden;
-
 }
 
 /* ---- image-background ---- */

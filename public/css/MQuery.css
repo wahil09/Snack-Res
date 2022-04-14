@@ -1,5 +1,4 @@
 
-
 /* ------------ Exceptions ---------------- */
 @media screen and (min-width:1401px) and (max-width:1600px) {
     /* --- for div image plats --- */
@@ -19,8 +18,12 @@
         height: 280px;
     }
 
+
+
 }
 @media screen and (max-width:900px) {
+
+
     .container .main-header .main-nav {
         display: none;
     }
@@ -28,6 +31,7 @@
     .container .main-header .div-humburger {
         display: flex;
     }
+    
 }
 
 
@@ -286,7 +290,10 @@
 /* ---------- Pour les mobiles -------------- */
 @media screen and (max-width:480px) {
     /* -------------- Style Header ---------------- */
-
+    .container #main-header {
+        grid-template-areas: ". logo logo . . menu menu menu menu menu menu menu ";
+    }
+    
 
 
 
