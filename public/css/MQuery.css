@@ -242,6 +242,11 @@
 /* -------------- Pour les Petits-tablettes et Grands-mobiles -------------- */
 @media screen {
     @media screen and (min-width:480px) and (max-width:600px) {
+        /* ------ Body ------- */
+        body {
+            font-size: 14px;
+        }
+        
         /* -------------- Style Header ---------------- */
 
     
@@ -268,7 +273,11 @@
         }
     
         /* -- row-1 -- */
-    
+        .container main .row .ens-art .container-art .all-Plats .plat .info-plat .descp-plat {
+
+            font-size: 1.2em;
+        }
+        
     
         /* -- row-2 -- */
     
@@ -277,7 +286,9 @@
     
     
         /* -------------- Style Footer ---------------- */
-    
+        .title-footer {
+            font-size: 22px;
+        }
     
     
     }
@@ -289,6 +300,12 @@
 
 /* ---------- Pour les mobiles -------------- */
 @media screen and (max-width:480px) {
+    /* ------ Body ------- */
+    body {
+        font-size: 14px;
+    }
+
+
     /* -------------- Style Header ---------------- */
     .container #main-header {
         grid-template-areas: ". logo logo . . menu menu menu menu menu menu menu ";
@@ -357,7 +374,13 @@
 
 
     /* -------------- Style Footer ---------------- */
-    
+    .container footer .container-footer .all-cordonnes .cordonner .title-cordonner {
+        font-size: 1em;
+    }
+
+    .container footer .container-footer .div-copyright a {
+        font-size: 0.9em
+    }
 }
 
 
