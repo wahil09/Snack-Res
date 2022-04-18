@@ -18,6 +18,11 @@
         height: 280px;
     }
 
+    /* ------- article-2 --------- */
+    .container main .row .art-2 .container-art .all-spécialites {
+        justify-content: center;
+    }
+
 
 
 }
@@ -236,6 +241,19 @@
 }
 
 
+@media screen and (max-width:600px) { 
+
+
+    /* ----- article-2 ------ */
+    .container main .row .art-2 .container-art .all-spécialites .spécialiter {
+        width:100%;
+    }
+
+}
+    
+
+
+
 
 
 
@@ -354,7 +372,8 @@
     /* -- row-1 -- */
 
     .font-title {
-        font-size: 20px;
+        font-size: 1.5em;
+        text-align: center;
     }
 
     .container main .row .ens-art .container-art .all-Plats .plat {
@@ -368,6 +387,10 @@
 
 
     /* -- row-2 -- */
+
+    .container main .row .art-2 .container-art .all-spécialites .spécialiter .div-title-spécialites .title-spécialites {
+        font-size: 0.9em;
+    }
 
 
 
@@ -389,6 +412,10 @@
 
 /* ---------- Pour les mini-mobiles -------------- */
 @media screen and (max-width:320px) {
+
+    .font-title {
+        font-size: 1.4em;
+    }
 
     /* -------------- Style Header ---------------- */
 
@@ -445,6 +472,18 @@
         width: 100%;
     }
     /* -- row-2 -- */
+
+    .container main .row .art-2 .container-art .div-title-art .main-title {
+        font-size: 1.3em;
+    }
+
+    .container main .row .art-2 .container-art .all-spécialites {
+        padding-left: 80px;
+        row-gap: 30px;
+    }
+    .container main .row .art-2 .container-art .all-spécialites .spécialiter .logo-spicialiter {
+        left: -75px;
+    }
 
 
 
