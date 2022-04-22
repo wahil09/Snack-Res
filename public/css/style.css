@@ -251,7 +251,7 @@ a[href*='wahil']:hover, a[href^='fb']:hover {
 /* ---- image-background ---- */
 .container main .row .art-0 .div-bg-art-0 {
     position: absolute;
-    width: 1920px;
+    width: 100VW;
     height: 100%;
 
 }
